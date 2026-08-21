@@ -101,7 +101,7 @@ if (isLoggedIn) {
           </form>
 
           <div className="signup">
-            <span>New to Netflix?</span>{" "}
+            <span>New to Movieflix?</span>{" "}
             <a href="#">Sign up now.</a>
           </div>
 
