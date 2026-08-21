@@ -235,28 +235,7 @@ The frontend communicates with the backend using the login API.
 
 After successful login, the user is shown a Netflix-inspired home/dashboard page.
 
-## Dashboard Features
 
-- Netflix-style navigation bar
-- Home
-- TV Shows
-- Movies
-- New & Popular
-- My List
-- Search icon
-- Notification icon
-- User profile
-- Sign Out button
-- Hero/banner section
-- Play button
-- More Info button
-- Trending Now section
-- Popular on Netflix section
-- Continue Watching section
-- Movie cards
-- Responsive mobile layout
-
----
 
 # 🔑 Mock Login Credentials
 
@@ -266,7 +245,7 @@ Example:
 
 ```text
 Email:
-mukeshkannamannai04@gmail.com
+test@gmail.com
 
 Password:
 123456
@@ -406,26 +385,7 @@ Netflix-Login/
 
 ---
 
-# 🚀 Future Improvements
 
-The project can be improved by adding:
-
-- User registration
-- MongoDB database
-- JWT authentication
-- Password hashing
-- Forgot password
-- Real movie API
-- Movie search
-- Movie details page
-- Movie trailers
-- Add to My List
-- User profiles
-- Watch history
-- Protected routes
-- Better authentication persistence
-
----
 
 # ⚠️ Important Security Note
 
