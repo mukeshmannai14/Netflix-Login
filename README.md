@@ -245,10 +245,10 @@ Example:
 
 ```text
 Email:
-test@gmail.com
+demo@example.com
 
 Password:
-123456
+Demo@123
 ```
 
 > This project uses mock/static authentication and does not use a database.
