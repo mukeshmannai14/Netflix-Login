@@ -13,8 +13,8 @@ app.get("/", (req, res) => {
 });
 
 const user = {
-  email: "test@gmail.com",
-  password: "123456",
+  email: "demo@example.com",
+  password: "Demo@123",
 };
 
 app.post("/api/login", (req, res) => {
