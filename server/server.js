@@ -3,23 +3,20 @@ const cors = require("cors");
 
 const app = express();
 
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(cors());
 app.use(express.json());
 
-// Test route
 app.get("/", (req, res) => {
   res.send("Backend is working!");
 });
 
-// Mock user
 const user = {
-  email: "test@gmail.com",
+  email: "mukeshkannamannai04@gmail.com",
   password: "123456",
 };
 
-// Login API
 app.post("/api/login", (req, res) => {
   const { email, password } = req.body;
 
@@ -37,5 +34,5 @@ app.post("/api/login", (req, res) => {
 });
 
 app.listen(PORT, () => {
-  console.log(`Server running on http://localhost:${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
