@@ -1,4 +1,4 @@
-# 🎬 Netflix Login – Full Stack Project
+# 🎬 Movieflix Login – Full Stack Project
 
 A Netflix-inspired full-stack login application built using React.js for the frontend and Node.js + Express.js for the backend.
 
