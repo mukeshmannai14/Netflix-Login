@@ -2,7 +2,7 @@ function Dashboard() {
   return (
     <div className="dashboard">
       <nav className="dashboard-navbar">
-        <h1 className="dashboard-logo">NETFLIX</h1>
+        <h1 className="dashboard-logo">MOVIEFLIX</h1>
 
         <button className="logout-button">
           Sign Out
@@ -10,7 +10,7 @@ function Dashboard() {
       </nav>
 
       <main className="dashboard-content">
-        <h2>Welcome to Netflix!</h2>
+        <h2>Welcome to Movieflix!</h2>
 
         <p>You have successfully logged in.</p>
 
