@@ -1,11 +1,12 @@
 import { useState } from "react";
 import "./App.css";
-
+import Dashboard from "./Dashboard";
 function App() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const [error, setError] = useState("");
+  const [isLoggedIn, setIsLoggedIn] = useState(false);
 
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -40,16 +41,18 @@ function App() {
   const data = await response.json();
 
   if (response.ok) {
-    alert(data.message);
-  } else {
-    setError(data.message);
-  }
+  setIsLoggedIn(true);
+} else {
+  setError(data.message);
+}
 } catch (error) {
   console.error("Error:", error);
   setError("Unable to connect to the server.");
 }
   };
-
+if (isLoggedIn) {
+  return <Dashboard />;
+}
   return (
     <div className="login-page">
       <div className="login-overlay"></div>

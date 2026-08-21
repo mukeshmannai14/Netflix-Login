@@ -15,7 +15,7 @@ app.get("/", (req, res) => {
 
 // Mock user
 const user = {
-  email: "mukeshkannamannai04@gmail.com",
+  email: "test@gmail.com",
   password: "123456",
 };
 
